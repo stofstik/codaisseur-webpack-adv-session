@@ -4,8 +4,12 @@
   "description": "Modern JS version of the Balloon game for the Taste of Code with Webpack.",
   "main": "src/index.js",
   "scripts": {
+"clean": "rimraf dist",
+    "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.config.prod.js",
+    "build:copy": "cp index.html favicon.ico dist/",
+    "build": "npm run clean && npm run build:webpack && npm run build:copy",
     "start": "node devServer.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test.js --recursive src/*.test.js src/**/*.test.js src/**/**/*.test.js"
   },
   "repository": {
     "type": "git",
