@@ -99,6 +99,7 @@ export default class Balloon {
 
     return(`
       <div class="balloon" id="${this.id}"
+        style="left: 50%; bottom: 0">
         <div class="bubble"
           style="background-color: ${color};
             height: ${height}px;
