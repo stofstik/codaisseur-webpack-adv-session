@@ -1,0 +1,25 @@
+{
+  "name": "codaisseur-webpack-adv-session",
+  "version": "1.0.0",
+  "description": "Modern JS version of the Balloon game for the Taste of Code with Webpack.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stofstik/codaisseur-webpack-adv-session.git"
+  },
+  "keywords": [
+    "webpack",
+    "tasteofcode",
+    "game",
+    "balloons"
+  ],
+  "author": "Wouter de Vos - Codaisseur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stofstik/codaisseur-webpack-adv-session/issues"
+  },
+  "homepage": "https://github.com/stofstik/codaisseur-webpack-adv-session#readme"
+}
