@@ -1,1 +1,4 @@
-document.write( '<h1>YOLOSWAG</h1>' )
+import App from './App'
+
+const app = new App()
+app.render()
